@@ -84,6 +84,7 @@ class CategoryController extends Controller
 
         // service call
         $serviceParams = ['cat' => $request->name];
+
         $serviceResponseStatus = ['status' => 1];
 
         // custom service call logger [START]
